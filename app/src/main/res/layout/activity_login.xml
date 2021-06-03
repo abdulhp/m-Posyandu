@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/m_posyandu" />
 
     <EditText
-        android:id="@+id/edit_username"
+        android:id="@+id/edit_username_login"
         android:layout_width="274dp"
         android:layout_height="45dp"
         android:layout_marginTop="32dp"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:id="@+id/edit_password"
+        android:id="@+id/edit_password_login"
         android:layout_width="274dp"
         android:layout_height="45dp"
         android:layout_marginTop="8dp"
@@ -43,10 +43,10 @@
         android:paddingStart="10dp"
         android:paddingEnd="10dp"
         android:background="@drawable/rounded_edit_text"
-        app:layout_constraintEnd_toEndOf="@+id/edit_username"
+        app:layout_constraintEnd_toEndOf="@+id/edit_username_login"
         app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintStart_toStartOf="@+id/edit_username"
-        app:layout_constraintTop_toBottomOf="@+id/edit_username" />
+        app:layout_constraintStart_toStartOf="@+id/edit_username_login"
+        app:layout_constraintTop_toBottomOf="@+id/edit_username_login" />
 
     <Button
         android:id="@+id/btn_login"
@@ -55,9 +55,9 @@
         android:layout_marginTop="8dp"
         android:backgroundTint="@color/btn_color"
         android:text="Login"
-        app:layout_constraintEnd_toEndOf="@+id/edit_password"
-        app:layout_constraintStart_toStartOf="@+id/edit_password"
-        app:layout_constraintTop_toBottomOf="@+id/edit_password" />
+        app:layout_constraintEnd_toEndOf="@+id/edit_password_login"
+        app:layout_constraintStart_toStartOf="@+id/edit_password_login"
+        app:layout_constraintTop_toBottomOf="@+id/edit_password_login" />
 
     <TextView
         android:id="@+id/textView"
