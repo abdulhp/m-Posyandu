@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MPosyandu">
-        <activity android:name=".InputPengukuranActivity"></activity>
+        <activity android:name=".HasilPengukuranActivity"></activity>
+        <activity android:name=".InputPengukuranActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
