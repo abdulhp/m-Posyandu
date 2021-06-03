@@ -67,13 +67,13 @@
             android:backgroundTint="@color/bg_color"
             android:drawableTop="@drawable/button_data_anak"
             android:text="Data anak"
-            app:layout_constraintEnd_toStartOf="@+id/btn_data_anak2"
+            app:layout_constraintEnd_toStartOf="@+id/btn_input_pengukuran"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/btn_data_anak2"
+            android:id="@+id/btn_input_pengukuran"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginTop="16dp"
@@ -87,7 +87,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
-            android:id="@+id/btn_data_anak5"
+            android:id="@+id/btn_agenda_posyandu"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginTop="16dp"
@@ -97,11 +97,11 @@
             android:text="Agenda \nPosyandu"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/btn_data_anak4"
-            app:layout_constraintTop_toBottomOf="@+id/btn_data_anak2" />
+            app:layout_constraintStart_toEndOf="@+id/btn_profil"
+            app:layout_constraintTop_toBottomOf="@+id/btn_input_pengukuran" />
 
         <Button
-            android:id="@+id/btn_data_anak4"
+            android:id="@+id/btn_profil"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginStart="16dp"
@@ -109,23 +109,23 @@
             android:backgroundTint="@color/bg_color"
             android:drawableTop="@drawable/button_profil"
             android:text="Profil"
-            app:layout_constraintEnd_toStartOf="@+id/btn_data_anak5"
+            app:layout_constraintEnd_toStartOf="@+id/btn_agenda_posyandu"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btn_data_anak" />
 
         <Button
-            android:id="@+id/btn_data_anak6"
+            android:id="@+id/btn_riwayat_pengukuran"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
             android:backgroundTint="@color/bg_color"
             android:drawableTop="@drawable/button_riwayat"
-            android:text="Data anak"
+            android:text="Riwayat \nPengukuran"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="@+id/btn_data_anak4"
-            app:layout_constraintTop_toBottomOf="@+id/btn_data_anak4" />
+            app:layout_constraintStart_toStartOf="@+id/btn_profil"
+            app:layout_constraintTop_toBottomOf="@+id/btn_profil" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
