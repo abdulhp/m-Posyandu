@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MPosyandu">
-        <activity android:name=".DetailAnakActivity"></activity>
+        <activity android:name=".EditAnakActivity"></activity>
+        <activity android:name=".DetailAnakActivity" />
         <activity android:name=".DataAnakActivity" />
         <activity android:name=".HasilPengukuranActivity" />
         <activity android:name=".InputPengukuranActivity" />
