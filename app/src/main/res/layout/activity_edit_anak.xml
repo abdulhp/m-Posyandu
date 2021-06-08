@@ -7,6 +7,7 @@
     tools:context=".EditAnakActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout3"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -76,17 +77,98 @@
             app:layout_constraintTop_toBottomOf="@+id/textView25" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
-            android:layout_width="143dp"
-            android:layout_height="45dp"
+            android:id="@+id/edit_name_anak"
+            android:layout_width="223dp"
+            android:layout_height="37dp"
+            android:layout_marginEnd="16dp"
             android:background="@drawable/rounded_edit_text"
             android:ems="10"
             android:inputType="textPersonName"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
             android:text="Name"
+            app:layout_constraintBottom_toBottomOf="@+id/textView22"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/textView22"
             app:layout_constraintTop_toTopOf="@+id/textView22" />
+
+        <EditText
+            android:id="@+id/edit_nik_anak"
+            android:layout_width="223dp"
+            android:layout_height="37dp"
+            android:background="@drawable/rounded_edit_text"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="NIK"
+            app:layout_constraintBottom_toBottomOf="@+id/textView23"
+            app:layout_constraintStart_toStartOf="@+id/edit_name_anak"
+            app:layout_constraintTop_toTopOf="@+id/textView23" />
+
+        <EditText
+            android:id="@+id/edit_tgl_anak"
+            android:layout_width="223dp"
+            android:layout_height="37dp"
+            android:background="@drawable/rounded_edit_text"
+            android:ems="10"
+            android:inputType="date"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Tanggal Lahir"
+            app:layout_constraintBottom_toBottomOf="@+id/textView24"
+            app:layout_constraintStart_toStartOf="@+id/edit_nik_anak"
+            app:layout_constraintTop_toTopOf="@+id/textView24" />
+
+        <EditText
+            android:id="@+id/edit_gender_anak"
+            android:layout_width="223dp"
+            android:layout_height="37dp"
+            android:background="@drawable/rounded_edit_text"
+            android:ems="10"
+            android:inputType="date"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Jenis Kelamin"
+            app:layout_constraintBottom_toBottomOf="@+id/textView25"
+            app:layout_constraintStart_toStartOf="@+id/edit_tgl_anak"
+            app:layout_constraintTop_toTopOf="@+id/textView25" />
+
+        <EditText
+            android:id="@+id/edit_alamat_anak"
+            android:layout_width="223dp"
+            android:layout_height="37dp"
+            android:background="@drawable/rounded_edit_text"
+            android:ems="10"
+            android:inputType="date"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:text="Alamat"
+            app:layout_constraintBottom_toBottomOf="@+id/textView26"
+            app:layout_constraintStart_toStartOf="@+id/edit_gender_anak"
+            app:layout_constraintTop_toTopOf="@+id/textView26" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btn_simpan_anak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/btn_color"
+        android:text="Simpan"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_batal_anak"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
+
+    <Button
+        android:id="@+id/btn_batal_anak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#A3A3A3"
+        android:text="batal"
+        app:layout_constraintEnd_toStartOf="@+id/btn_simpan_anak"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
 </androidx.constraintlayout.widget.ConstraintLayout>
