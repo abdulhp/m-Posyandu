@@ -53,6 +53,7 @@ class LoginActivity : AppCompatActivity() {
                             val document = it.result
                             val sharedPref = baseContext.getSharedPreferences("userDetail", MODE_PRIVATE)
                             with(sharedPref.edit()) {
+                                putString("uid", uid.toString())
                                 putString("NIK", document!!.get("NIK").toString())
                                 putString("nama", document!!.get("nama").toString())
                                 putString("email", document!!.get("email").toString())

@@ -7,7 +7,7 @@
     tools:context=".DataAnakActivity">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_tambah_anak"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"

@@ -43,6 +43,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             binding.btnInputPengukuran.id -> {
                 startActivity(Intent(this@MainActivity, InputPengukuranActivity::class.java))
             }
+
         }
     }
 }

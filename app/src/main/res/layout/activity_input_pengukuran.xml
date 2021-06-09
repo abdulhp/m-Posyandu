@@ -25,7 +25,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="32dp"
             android:text="Tanggal"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,7 +37,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="Nama"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -47,7 +49,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="NIK"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -58,7 +61,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="Berat Badan"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -69,19 +73,20 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:text="Tinggi Badan"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView11" />
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            android:textColor="@color/black" />
 
         <EditText
             android:id="@+id/edit_tanggal_ukur"
             android:layout_width="0dp"
-            android:layout_height="45dp"
+            android:layout_height="35dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/rounded_edit_text"
             android:ems="10"
             android:hint="Tanggal"
-            android:inputType="date"
+            android:inputType="date|datetime|time"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
             app:layout_constraintBottom_toBottomOf="@+id/textView8"
@@ -91,7 +96,7 @@
         <EditText
             android:id="@+id/edit_nama_ukur"
             android:layout_width="0dp"
-            android:layout_height="45dp"
+            android:layout_height="35dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/rounded_edit_text"
             android:ems="10"
@@ -106,7 +111,7 @@
         <EditText
             android:id="@+id/edit_nik_ukur"
             android:layout_width="0dp"
-            android:layout_height="45dp"
+            android:layout_height="35dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/rounded_edit_text"
             android:ems="10"
@@ -121,7 +126,7 @@
         <EditText
             android:id="@+id/edit_berat_ukur"
             android:layout_width="0dp"
-            android:layout_height="45dp"
+            android:layout_height="35dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/rounded_edit_text"
             android:ems="10"
@@ -136,7 +141,7 @@
         <EditText
             android:id="@+id/edit_tinggi_ukur"
             android:layout_width="0dp"
-            android:layout_height="45dp"
+            android:layout_height="35dp"
             android:layout_marginEnd="16dp"
             android:background="@drawable/rounded_edit_text"
             android:ems="10"

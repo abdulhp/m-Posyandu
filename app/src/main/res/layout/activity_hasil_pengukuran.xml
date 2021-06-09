@@ -60,7 +60,7 @@
             app:layout_constraintTop_toTopOf="@+id/textView15" />
 
         <TextView
-            android:id="@+id/tv_tinggi_hasil2"
+            android:id="@+id/tv_output_hasil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Baik"
